@@ -73,7 +73,7 @@ The project consists of the following steps:
    - <img src="./StepsForInstallation/Step 1.PNG">
    - **Step 2**: Connect your ESP32 with your computer.
    - **Step 3**: Open Thony and go to Run and click on Configure interpreter
-   - <img src="./StepsForInstallation/Step 2.PNG">
+   - <img src="./StepsForInstallation/Step 2.png">
    - **Step 4**: Now select Micropython (ESP32) on the first selection box and at Port or WebREPL Select yout USB port where ESP32 is connected.
    - <img src="./StepsForInstallation/Step 3.PNG">
    - **Step 5**: Now check all the check box and click on Install or update Micropython (esptool)
