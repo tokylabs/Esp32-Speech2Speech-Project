@@ -102,13 +102,13 @@ The project consists of the following steps:
 
 5. **Connect Hardware**
 
-   - **MAX98357A**: Connect to the ESP32 for audio output.
+   - **Step 1 (MAX98357A)**: Connect to the ESP32 for audio output.
    - GND PIN: 5V GND
    - BCK PIN: 26
    - WS PIN: 25
    - SDOUT PIN: 22
 
-   - **INMP441**: Connect to the ESP32 for audio input.
+   - **Step 2 (INMP441)**: Connect to the ESP32 for audio input.
    - GND PIN: 3V3 GND
    - SCK PIN: 18
    - WS Pin: 19
