@@ -52,9 +52,9 @@ The project consists of the following steps:
    - Step 2: Select 115200 in Program Baudrate and click on connect.
    - <img src="./StepsForConfiguration/Step 2.PNG">
    - Step 3: Select your USB connected port and click on connect.
-   - <img src="./StepsForConfiguration/Step 3.PNG">
+   - <img src="./StepsForConfiguration/Step 3.png">
    - Step 4: You can see the connection process on the terminal.
-   - <img src="./StepsForConfiguration/Step 4.PNG">
+   - <img src="./StepsForConfiguration/Step 4.png">
    - Step 5: Now press and hold the boot button of ESP32, press and release the EN/Reset Button of ESP32, Now release the boot button. Now ESP32 will be connected.
    - <img src="./StepsForConfiguration/Step 5.PNG">
    - Step 6: Now click on Erase Flash Button.
