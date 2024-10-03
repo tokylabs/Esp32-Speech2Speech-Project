@@ -47,7 +47,7 @@ The project consists of the following steps:
 
 1. **Install MicroPython**: Flash MicroPython onto your ESP32.
    - You can follow [this guide](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html) for installation instructions.
-   - ![Step 1](StepsForConfiguration/Step 1.PNG)
+   - <img src="./StepsForConfiguration/Step 1.PNG">
 
 2. **Install Python Dependencies**: Install the `requests` library on the ESP32 using `upip`:
    ```bash
