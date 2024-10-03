@@ -68,7 +68,7 @@ The project consists of the following steps:
    - Congratulation your ESP32 is now Factory Reset Now you can disconnect your ESP32 with Your Computer.
    - <img src="./StepsForConfiguration/Step 9.PNG">
 
-1. **Install MicroPython**: Install Thony and Flash MicroPython onto your ESP32.
+2. **Install MicroPython**: Install Thony and Flash MicroPython onto your ESP32.
    - **Step 1**: Install Micropython from [Here](https://thonny.org/).
    - <img src="./StepsForInstallation/Step 1.PNG">
    - **Step 2**: Connect your ESP32 with your computer.
@@ -86,18 +86,36 @@ The project consists of the following steps:
    - <img src="./StepsForInstallation/Step 7.PNG">
 
 
-2. **Install Python Dependencies**: Install the `requests` library on the ESP32 using `upip`:
+3. **Install Python Dependencies**: Install the `requests` library on the ESP32 using `upip`:
    ```bash
    upip install requests
 
-3. **Connect Hardware**
+
+4. **Upload Files to ESP32**: Transfer all Python scripts to your ESP32.
+
+   - **Step 1**: Download Necessary files which are going to use in the ESP32
+   - <img src="./StepsForUploadingFiles/Step 1.PNG">
+   - **Step 2**: Now connect your ESP32 with your computer and Open Thony
+   - **Step 3**: Now Manually upload the downloaded files into the ESP32 Like Below
+   - <img src="./StepsForUploadingFiles/Step 2.PNG">
+   - **Step 4**: Congratulation All the files are now in the ESP32.
+
+5. **Connect Hardware**
 
    - **MAX98357A**: Connect to the ESP32 for audio output.
+   - GND PIN: 5V GND
+   - BCK PIN: 26
+   - WS PIN: 25
+   - SDOUT PIN: 22
+
    - **INMP441**: Connect to the ESP32 for audio input.
+   - GND PIN: 3V3 GND
+   - SCK PIN: 18
+   - WS Pin: 19
+   - SD PIn: 5
 
-5. **Configure API Keys**: Open config.py and insert your API keys for the speech-to-text and text generation services.
+6. **Configure API Keys**: Open config.py and insert your API keys for the speech-to-text and text generation services.
 
-6. **Upload Files to ESP32**: Transfer all Python scripts to your ESP32 using an IDE like Thonny or ampy.
 
 ## Usage
 1. **Run the Application**: Execute app.py to start the voice-controlled assistant.
