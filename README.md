@@ -48,25 +48,25 @@ The project consists of the following steps:
 1. **Flash/Reset ESP32**: Factory Reset Your ESP32 BOARD.
    - Connect your ESP32 with your computer
    - Step 1: Go to [Flash/Reset ESP32](https://espressif.github.io/esptool-js/)
-   <img src="./StepsForConfiguration/Step 1.PNG">
+   - <img src="./StepsForConfiguration/Step 1.PNG">
    - Step 2: Select 115200 in Program Baudrate and click on connect.
-   <img src="./StepsForConfiguration/Step 2.PNG">
+   - <img src="./StepsForConfiguration/Step 2.PNG">
    - Step 3: Select your USB connected port and click on connect.
-   <img src="./StepsForConfiguration/Step 3.PNG">
+   - <img src="./StepsForConfiguration/Step 3.PNG">
    - Step 4: You can see the connection process on the terminal.
-   <img src="./StepsForConfiguration/Step 4.PNG">
+   - <img src="./StepsForConfiguration/Step 4.PNG">
    - Step 5: Now press and hold the boot button of ESP32, press and release the EN/Reset Button of ESP32, Now release the boot button. Now ESP32 will be connected.
-   <img src="./StepsForConfiguration/Step 5.PNG">
+   - <img src="./StepsForConfiguration/Step 5.PNG">
    - Step 6: Now click on Erase Flash Button.
-   <img src="./StepsForConfiguration/Step 6.PNG">
+   - <img src="./StepsForConfiguration/Step 6.PNG">
    - Step 7: Now it will take a while to Flash it so wait for it.
-   <img src="./StepsForConfiguration/Step 7.PNG">
+   - <img src="./StepsForConfiguration/Step 7.PNG">
    - Step 8: Now go to [Download Reset File](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnQ1T0pmalFPamxpY2xZdnVPNE9QX3JiQzNrZ3xBQ3Jtc0trMkJUOE1JQTJhcllFMUNfVU5hRmJBTUZxVV9mTHhBeFhKbkt5SEJvMVBOV2RMc1RaYlB6N1JHaTRkY2oyWDUwNjFXUG9rNF9JcXUzZGg2RjR1VGdjdlpjb1B3UUNKdWRoSmYzRVk3WEstcXJuS05pOA&q=https%3A%2F%2Fgithub.com%2Fitsbhupendrasingh%2FESP32-Factory-Reset-S2-and-bootloader%2Fraw%2FMaster%2FFactory_Reset_And_Bootloader_Repair.bin&v=3oEvXhgHZHo/) and download it.
    - Step 9: Now in Falash Adress make it 0x0000 and upload the downloaded file and click on Program.
-   <img src="./StepsForConfiguration/Step 8.PNG">
+   - <img src="./StepsForConfiguration/Step 8.PNG">
    - Step 10: Now it will take a while to factory reset the ESP32.
    - Congratulation your ESP32 is now Factory Reset Now you can disconnect your ESP32 with Your Computer.
-   <img src="./StepsForConfiguration/Step 9.PNG">
+   - <img src="./StepsForConfiguration/Step 9.PNG">
 
 1. **Install MicroPython**: Flash MicroPython onto your ESP32.
    - You can follow [this guide](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html) for installation instructions.
