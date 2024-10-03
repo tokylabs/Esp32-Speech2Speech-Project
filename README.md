@@ -94,10 +94,10 @@ The project consists of the following steps:
 4. **Upload Files to ESP32**: Transfer all Python scripts to your ESP32.
 
    - **Step 1**: Download Necessary files which are going to use in the ESP32
-   - <img src="./StepsForUploadingFiles/Step 1.PNG">
+   - <img src="./StepsForUploadingFiles/Step 1.png">
    - **Step 2**: Now connect your ESP32 with your computer and Open Thony
    - **Step 3**: Now Manually upload the downloaded files into the ESP32 Like Below
-   - <img src="./StepsForUploadingFiles/Step 2.PNG">
+   - <img src="./StepsForUploadingFiles/Step 2.png">
    - **Step 4**: Congratulation All the files are now in the ESP32.
 
 5. **Connect Hardware**
