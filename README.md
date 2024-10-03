@@ -68,8 +68,23 @@ The project consists of the following steps:
    - Congratulation your ESP32 is now Factory Reset Now you can disconnect your ESP32 with Your Computer.
    - <img src="./StepsForConfiguration/Step 9.PNG">
 
-1. **Install MicroPython**: Flash MicroPython onto your ESP32.
-   - You can follow [this guide](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html) for installation instructions.
+1. **Install MicroPython**: Install Thony and Flash MicroPython onto your ESP32.
+   - **Step 1**: Install Micropython from [Here](https://thonny.org/).
+   - <img src="./StepsForInstallation/Step 1.PNG">
+   - **Step 2**: Connect your ESP32 with your computer.
+   - **Step 3**: Open Thony and go to Run and click on Configure interpreter
+   - <img src="./StepsForInstallation/Step 2.PNG">
+   - **Step 4**: Now select Micropython (ESP32) on the first selection box and at Port or WebREPL Select yout USB port where ESP32 is connected.
+   - <img src="./StepsForInstallation/Step 3.PNG">
+   - **Step 5**: Now check all the check box and click on Install or update Micropython (esptool)
+   - <img src="./StepsForInstallation/Step 4.PNG">
+   - **Step 6**: Now according to your ESP32 select the configuration as shown in below
+   - <img src="./StepsForInstallation/Step 5.PNG">
+   - **Step 7**: Now after installation click on close and then ok
+   - <img src="./StepsForInstallation/Step 6.PNG">
+   - **Step 8**: Congratulation Micropython is installed in your ESP32
+   - <img src="./StepsForInstallation/Step 7.PNG">
+
 
 2. **Install Python Dependencies**: Install the `requests` library on the ESP32 using `upip`:
    ```bash
